@@ -4,7 +4,7 @@ A Docker container that acts as a personal VPS running Ubuntu with ssh setup.
 
 It loads git, curl, and vim onto the machine, then sets up passwordless ssh access.
 
-This will be my super simple way to hack on a random "server" thing in a new container as the sandbox.
+This will be my super simple way to hack on a random "server" thing in a new container as the sandbox. It obviously doesn't replace the need for cloud hosting when exposing to a public network, but for things I'm working on my own for, this will do just fine.
 
 ## Quick Start
 
