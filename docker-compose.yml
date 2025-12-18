@@ -1,0 +1,17 @@
+services:
+  ubuntu-vps:
+    build: .
+    container_name: ubuntu-vps
+    hostname: ubuntu-vps
+    ports:
+      - "2222:22"
+    volumes:
+      - vps-home:/home/ubuntu
+      - vps-workspace:/home/ubuntu/workspace
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+volumes:
+  vps-home:
+  vps-workspace:
